@@ -2,7 +2,7 @@ import common from './config/webpack/common'
 
 export default {
   title: 'Veek',
-  description: 'Veekd components',
+  description: 'Veek components',
   wrapper: 'src/components/helpers/WrapperTheme',
   themeConfig: {
     colors: {
