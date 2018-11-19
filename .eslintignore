@@ -1,0 +1,4 @@
+/config/*
+/build/*
+/public/*
+server.js

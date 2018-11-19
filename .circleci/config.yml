@@ -1,0 +1,67 @@
+defaults: &defaults
+  working_directory: ~/workspace/repo
+  docker:
+    - image: circleci/node:8.11.4-browsers
+
+to_persist: &to_persist
+  root: ~/workspace
+  paths:
+    - repo/*
+
+version: 2
+jobs:
+  checkout:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies-
+      - run:
+          name: Install dependencies
+          command: yarn install
+      - save_cache:
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+      - persist_to_workspace:
+          <<: *to_persist
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/workspace
+      - run:
+          name: Test React components and generate coverage report
+          command: |
+            yarn test:coverage --ci
+      - persist_to_workspace:
+          <<: *to_persist
+
+  build:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/workspace
+      - run:
+          name:  Build React app
+          command: yarn build
+      - persist_to_workspace:
+          <<: *to_persist
+workflows:
+  version: 2
+  default:
+    jobs:
+      - checkout
+      - test:
+          requires:
+            - checkout
+      - build:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master

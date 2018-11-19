@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "babel-plugin-styled-components",
+    "@babel/plugin-proposal-class-properties",
+    ["babel-plugin-root-import", { "rootPathSuffix": "src/" }]
+  ]
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Organism />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "Organism-wxahqb-0",
+        "isStatic": true,
+        "rules": Array [
+          "background-color:yellow;",
+        ],
+      },
+      "displayName": "Organism",
+      "render": [Function],
+      "styledComponentId": "Organism-wxahqb-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  I am a Organism
+</StyledComponent>
+`;

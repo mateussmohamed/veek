@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Page />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "Page__Wrapper-sc-117sgj4-0",
+        "isStatic": true,
+        "rules": Array [
+          "display:block;",
+        ],
+      },
+      "displayName": "Page__Wrapper",
+      "render": [Function],
+      "styledComponentId": "Page__Wrapper-sc-117sgj4-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

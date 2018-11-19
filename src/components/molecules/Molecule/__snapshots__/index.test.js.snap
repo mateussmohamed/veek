@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Molecule />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "Molecule-sc-1wturfg-0",
+        "isStatic": true,
+        "rules": Array [
+          "background-color:red;",
+        ],
+      },
+      "displayName": "Molecule",
+      "render": [Function],
+      "styledComponentId": "Molecule-sc-1wturfg-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  I am a Molecule
+</StyledComponent>
+`;
