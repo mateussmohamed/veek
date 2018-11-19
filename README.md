@@ -1,6 +1,6 @@
 # Veek
 
-[![CircleCI](https://circleci.com/gh/mateussmohamed/Veek.svg?style=svg&circle-token=10a55438d5788f02da1d9ce979954fcbaa89427f)](https://circleci.com/gh/mateussmohamed/Veek)
+[![CircleCI](https://circleci.com/gh/mateussmohamed/challenge-veek.svg?style=svg&circle-token=10a55438d5788f02da1d9ce979954fcbaa89427f)](https://circleci.com/gh/mateussmohamed/challenge-veek)
 
 
 ## About
