@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<File />] matches to snapshot 1`] = `
+<File__FileContainer>
+  <File__InputFile
+    id="cv"
+    name="cv"
+    onChange={[Function]}
+    type="file"
+  />
+  <File__Message>
+    Drag and drop a file or
+  </File__Message>
+  <File__FileName>
+    Search a file
+  </File__FileName>
+</File__FileContainer>
+`;
+
+exports[`[<File />] when pass props matches to snapshot 1`] = `
+<File__FileContainer>
+  <File__InputFile
+    id="cv"
+    name="cv"
+    onChange={[Function]}
+    type="file"
+  />
+  <File__Message>
+    Drag and drop a file or
+  </File__Message>
+  <File__FileName>
+    Search a file
+  </File__FileName>
+</File__FileContainer>
+`;

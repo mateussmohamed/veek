@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Footer />] matches to snapshot 1`] = `
+<Grid>
+  <FormApplication__FormApplicationStyled>
+    <Row
+      style={
+        Object {
+          "marginBottom": 50,
+        }
+      }
+    >
+      <Col
+        xs={12}
+      >
+        <Typography
+          variant="title2"
+        >
+          Apply
+        </Typography>
+        <Typography
+          variant="subtitle2"
+        >
+          Thought experiments (Gedankenexperimenten) are “facts” in the sense
+           
+        </Typography>
+      </Col>
+    </Row>
+    <Row>
+      <Col
+        sm={5}
+        xs={12}
+      >
+        <Field
+          label="First Name"
+          name="firstName"
+          onChange={[Function]}
+        />
+      </Col>
+      <Col
+        sm={5}
+        smOffset={2}
+        xs={12}
+      >
+        <Field
+          label="Name"
+          name="name"
+          onChange={[Function]}
+        />
+      </Col>
+    </Row>
+    <Row>
+      <Col
+        sm={5}
+        xs={12}
+      >
+        <Field
+          label="Email"
+          name="email"
+          onChange={[Function]}
+        />
+      </Col>
+      <Col
+        sm={5}
+        smOffset={2}
+        xs={12}
+      >
+        <Field
+          label="Telephone Number"
+          name="telephone"
+          onChange={[Function]}
+        />
+      </Col>
+    </Row>
+    <Row>
+      <Col
+        xs={12}
+      >
+        <Field
+          label="Upload your CV"
+          name="cv"
+          onChange={[Function]}
+          type="file"
+        />
+      </Col>
+    </Row>
+    <Row>
+      <Col
+        xs={12}
+      >
+        <Field
+          label="Comments"
+          multiline={true}
+          name="comments"
+          onChange={[Function]}
+        />
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <Typography
+          variant="legend"
+        >
+          Thought experiments (Gedankenexperimenten) are “facts” in the sense that they have a “real life” correlate in the form of electrochemical activity in the brain.
+        </Typography>
+      </Col>
+    </Row>
+    <Row
+      end="xs"
+      style={
+        Object {
+          "marginTop": 80,
+        }
+      }
+    >
+      <Col>
+        <Button
+          primary={true}
+          secondary={true}
+        >
+          Validate
+        </Button>
+      </Col>
+    </Row>
+  </FormApplication__FormApplicationStyled>
+</Grid>
+`;
