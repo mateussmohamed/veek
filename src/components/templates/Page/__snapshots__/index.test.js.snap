@@ -7,7 +7,7 @@ exports[`[<Page />] matches to snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "Page__Wrapper-sc-117sgj4-0",
+        "componentId": "Page__Wrapper-gkbyv0-0",
         "isStatic": true,
         "rules": Array [
           "display:block;",
@@ -15,7 +15,7 @@ exports[`[<Page />] matches to snapshot 1`] = `
       },
       "displayName": "Page__Wrapper",
       "render": [Function],
-      "styledComponentId": "Page__Wrapper-sc-117sgj4-0",
+      "styledComponentId": "Page__Wrapper-gkbyv0-0",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -23,5 +23,7 @@ exports[`[<Page />] matches to snapshot 1`] = `
     }
   }
   forwardedRef={null}
-/>
+>
+  <Footer />
+</StyledComponent>
 `;

@@ -6,8 +6,7 @@ const Copy = require('copy-webpack-plugin')
 const PORT = 7171
 
 module.exports = {
-  // devtool: 'source-map',
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'source-map',
   mode: 'development',
   entry: [
     'react-hot-loader/patch',
@@ -29,12 +28,7 @@ module.exports = {
   ],
 
   module: {
-    rules: [
-      common.jsLoader,
-      common.fileLoader,
-      common.jsLoader,
-      common.urlLoader,
-    ],
+    rules: [common.jsLoader, common.fileLoader, common.urlLoader],
   },
 
   resolve: common.resolve,

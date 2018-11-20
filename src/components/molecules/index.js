@@ -1,3 +1,3 @@
-import Molecule from './Molecule'
+import LinkList from './LinkList'
 
-export { Molecule }
+export { LinkList }

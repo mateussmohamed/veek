@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Molecule />] matches to snapshot 1`] = `
+<LinkList__StyledLinkList
+  direction="column"
+>
+  <li
+    key=".0"
+  >
+    I am a Molecule
+  </li>
+</LinkList__StyledLinkList>
+`;

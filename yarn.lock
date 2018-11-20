@@ -7319,6 +7319,11 @@ lodash.isequal@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
+lodash.isinteger@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz#619c0af3d03f8b04c31f5882840b77b11cd68343"
+  integrity sha1-YZwK89A/iwTDH1iChAt3sRzWg0M=
+
 lodash.iteratee@^4.5.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.iteratee/-/lodash.iteratee-4.7.0.tgz#be4177db289a8ccc3c0990f1db26b5b22fc1554c"
@@ -9583,6 +9588,13 @@ react-sizes@^1.0.4:
   dependencies:
     lodash.throttle "^4.1.1"
     prop-types "^15.6.0"
+
+react-styled-flexboxgrid@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-styled-flexboxgrid/-/react-styled-flexboxgrid-2.6.0.tgz#a4e498da928f100c65a2b1f9839cc2959b0f2400"
+  integrity sha512-JBzcvKP62M1TG5O84V4cXjbs0W+X4oz6JncLK8nQYdnEDHTWve9whz2Rb43EcUm7XvMVQtrmY5ThEuTdz588Mw==
+  dependencies:
+    lodash.isinteger "^4.0.4"
 
 react-test-renderer@^16.0.0-0:
   version "16.6.0"
