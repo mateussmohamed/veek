@@ -45,7 +45,7 @@ module.exports = {
   },
 
   fileLoader: {
-    test: /\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|txt)(\?.*)?$/,
+    test: /\.(ico|jpg|jpeg|png|gif|svg|eot|otf|webp|ttf|woff|woff2|txt)(\?.*)?$/,
     include: paths.src,
     use: {
       loader: 'file-loader',
@@ -67,9 +67,14 @@ module.exports = {
     },
   },
 
+  svgLoader: {
+    test: /\.svg$/,
+    use: ['svg-sprite-loader', 'svg-fill-loader', 'svgo-loader'],
+  },
+
   copyLoader: [
     {
-      from: `${paths.public}/assets`,
+      from: `${paths.src}/assets`,
       ignore: ['*.html'],
       to: `${paths.build}/assets`,
     },
