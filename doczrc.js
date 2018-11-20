@@ -3,7 +3,7 @@ import common from './config/webpack/common'
 export default {
   title: 'Veek',
   description: 'Veekd components',
-  wrapper: 'src/components/helpers/WrapperTheme',
+  wrapper: 'src/components/utils/WrapperTheme',
   themeConfig: {
     colors: {
       primary: 'tomato',
