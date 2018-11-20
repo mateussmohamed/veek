@@ -6,7 +6,7 @@ exports[`[<Button />] matches to snapshot 1`] = `
 />
 `;
 
-exports[`[<Button />] when pass props matches to snapshot 1`] = `
+exports[`[<Button />] when pass secondary prop matches to snapshot 1`] = `
 <Button__StyledButton
   primary={true}
   secondary={true}
