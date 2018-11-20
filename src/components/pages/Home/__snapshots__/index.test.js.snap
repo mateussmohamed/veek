@@ -5,14 +5,6 @@ exports[`[<Home />] matches to snapshot 1`] = `
   <h1>
     Home Page
   </h1>
-  <Atom>
-    I am a Atom
-  </Atom>
-  <Molecule>
-    I am a Molecule
-  </Molecule>
-  <Organism>
-    I am a Organism
-  </Organism>
+  <Footer />
 </Page__Wrapper>
 `;
