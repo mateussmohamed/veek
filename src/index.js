@@ -1,10 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-// import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { AppContainer } from 'react-hot-loader'
-
-// import { Layout } from 'templates'
-// import { Home } from 'pages'
 
 import app from './app'
 

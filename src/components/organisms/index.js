@@ -1,3 +1,3 @@
-import Organism from './Organism'
+import Footer from './Footer'
 
-export { Organism }
+export { Footer }

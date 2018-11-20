@@ -1,3 +1,4 @@
-import Atom from './Atom'
+import Link from './Link'
+import Icon from './Icon'
 
-export { Atom }
+export { Link, Icon }
