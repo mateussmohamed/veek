@@ -4,14 +4,14 @@ import styled from 'styled-components'
 
 import { Label, Input } from 'atoms'
 
-const StyledInputGroup = styled.div`
+const StyledField = styled.div`
   display: block;
   margin-bottom: 25px;
 `
 
-const InputGroup = props => {
+const Field = props => {
   return (
-    <StyledInputGroup {...props}>
+    <StyledField {...props}>
       <Label>{props.label}</Label>
       <Input
         id={props.name}
@@ -20,17 +20,17 @@ const InputGroup = props => {
         multiline={props.multiline}
         onChange={props.onChange}
       />
-    </StyledInputGroup>
+    </StyledField>
   )
 }
 
-InputGroup.propTypes = {
+Field.propTypes = {
   label: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   type: PropTypes.string,
   value: PropTypes.string,
   multiline: PropTypes.bool,
-  onChange: PropTypes.onChange,
+  onChange: PropTypes.func,
 }
 
-export default InputGroup
+export default Field

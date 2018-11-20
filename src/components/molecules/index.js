@@ -1,4 +1,4 @@
 import LinkList from './LinkList'
-import InputGroup from './InputGroup'
+import Field from './Field'
 
-export { LinkList, InputGroup }
+export { LinkList, Field }

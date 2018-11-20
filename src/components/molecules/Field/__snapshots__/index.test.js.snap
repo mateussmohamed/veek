@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[<InputGroup />] matches to snapshot 1`] = `
-<InputGroup__StyledInputGroup
+exports[`[<Field />] matches to snapshot 1`] = `
+<Field__StyledField
   label="First Name"
   name="name"
 >
@@ -15,11 +15,11 @@ exports[`[<InputGroup />] matches to snapshot 1`] = `
     name="name"
     type="text"
   />
-</InputGroup__StyledInputGroup>
+</Field__StyledField>
 `;
 
-exports[`[<InputGroup />] when pass multiline prop matches to snapshot with textarea 1`] = `
-<InputGroup__StyledInputGroup
+exports[`[<Field />] when pass multiline prop matches to snapshot with textarea 1`] = `
+<Field__StyledField
   label="Comments"
   multiline={true}
   name="comments"
@@ -34,11 +34,11 @@ exports[`[<InputGroup />] when pass multiline prop matches to snapshot with text
     name="comments"
     type="text"
   />
-</InputGroup__StyledInputGroup>
+</Field__StyledField>
 `;
 
-exports[`[<InputGroup />] when pass type prop matches to snapshot 1`] = `
-<InputGroup__StyledInputGroup
+exports[`[<Field />] when pass type prop matches to snapshot 1`] = `
+<Field__StyledField
   label="Upload your Avatar"
   name="avatar"
   type="file"
@@ -53,5 +53,5 @@ exports[`[<InputGroup />] when pass type prop matches to snapshot 1`] = `
     name="avatar"
     type="file"
   />
-</InputGroup__StyledInputGroup>
+</Field__StyledField>
 `;

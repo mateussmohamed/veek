@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 
 import { Button, Typography } from 'atoms'
-import { InputGroup } from 'molecules'
+import { Field } from 'molecules'
 
 const FormApplicationStyled = styled.form`
   width: 100%;
@@ -23,22 +23,18 @@ const FormApplication = () => (
       </Row>
       <Row>
         <Col xs={12} sm={5}>
-          <InputGroup
-            label="First Name"
-            name="firstName"
-            onChange={() => null}
-          />
+          <Field label="First Name" name="firstName" onChange={() => null} />
         </Col>
         <Col xs={12} sm={5} smOffset={2}>
-          <InputGroup label="Name" name="name" onChange={() => null} />
+          <Field label="Name" name="name" onChange={() => null} />
         </Col>
       </Row>
       <Row>
         <Col xs={12} sm={5}>
-          <InputGroup label="Email" name="email" onChange={() => null} />
+          <Field label="Email" name="email" onChange={() => null} />
         </Col>
         <Col xs={12} sm={5} smOffset={2}>
-          <InputGroup
+          <Field
             label="Telephone Number"
             name="telephone"
             onChange={() => null}
@@ -48,7 +44,7 @@ const FormApplication = () => (
 
       <Row>
         <Col xs={12}>
-          <InputGroup
+          <Field
             label="Upload your CV"
             name="cv"
             type="file"
@@ -58,7 +54,7 @@ const FormApplication = () => (
       </Row>
       <Row>
         <Col xs={12}>
-          <InputGroup
+          <Field
             label="Comments"
             name="comments"
             multiline

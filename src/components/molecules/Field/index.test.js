@@ -2,10 +2,10 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import 'jest-styled-components'
 
-import InputGroup from './index'
+import Field from './index'
 
-describe('[<InputGroup />]', () => {
-  const wrap = (props = {}) => shallow(<InputGroup {...props} />)
+describe('[<Field />]', () => {
+  const wrap = (props = {}) => shallow(<Field {...props} />)
 
   test('matches to snapshot', () => {
     const wrapper = wrap({

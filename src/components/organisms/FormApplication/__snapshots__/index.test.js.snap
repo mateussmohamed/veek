@@ -31,7 +31,7 @@ exports[`[<Footer />] matches to snapshot 1`] = `
         sm={5}
         xs={12}
       >
-        <InputGroup
+        <Field
           label="First Name"
           name="firstName"
           onChange={[Function]}
@@ -42,7 +42,7 @@ exports[`[<Footer />] matches to snapshot 1`] = `
         smOffset={2}
         xs={12}
       >
-        <InputGroup
+        <Field
           label="Name"
           name="name"
           onChange={[Function]}
@@ -54,7 +54,7 @@ exports[`[<Footer />] matches to snapshot 1`] = `
         sm={5}
         xs={12}
       >
-        <InputGroup
+        <Field
           label="Email"
           name="email"
           onChange={[Function]}
@@ -65,7 +65,7 @@ exports[`[<Footer />] matches to snapshot 1`] = `
         smOffset={2}
         xs={12}
       >
-        <InputGroup
+        <Field
           label="Telephone Number"
           name="telephone"
           onChange={[Function]}
@@ -76,7 +76,7 @@ exports[`[<Footer />] matches to snapshot 1`] = `
       <Col
         xs={12}
       >
-        <InputGroup
+        <Field
           label="Upload your CV"
           name="cv"
           onChange={[Function]}
@@ -88,7 +88,7 @@ exports[`[<Footer />] matches to snapshot 1`] = `
       <Col
         xs={12}
       >
-        <InputGroup
+        <Field
           label="Comments"
           multiline={true}
           name="comments"
