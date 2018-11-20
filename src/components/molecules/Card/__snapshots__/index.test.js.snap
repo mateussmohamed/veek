@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Molecule />] matches to snapshot 1`] = `
+<Card__StyledCard
+  direction="column"
+>
+  <li
+    key=".0"
+  >
+    I am a Molecule
+  </li>
+</Card__StyledCard>
+`;
