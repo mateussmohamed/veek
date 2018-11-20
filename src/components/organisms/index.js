@@ -1,3 +1,4 @@
 import Footer from './Footer'
+import FormApplication from './FormApplication'
 
-export { Footer }
+export { Footer, FormApplication }

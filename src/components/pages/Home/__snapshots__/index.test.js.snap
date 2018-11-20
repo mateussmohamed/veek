@@ -2,9 +2,7 @@
 
 exports[`[<Home />] matches to snapshot 1`] = `
 <Page__Wrapper>
-  <h1>
-    Home Page
-  </h1>
+  <FormApplication />
   <Footer />
 </Page__Wrapper>
 `;
