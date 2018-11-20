@@ -57,7 +57,7 @@ const FormApplication = () => (
           <Field
             label="Comments"
             name="comments"
-            multiline
+            type="textarea"
             onChange={() => null}
           />
         </Col>

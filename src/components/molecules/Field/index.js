@@ -17,7 +17,6 @@ const Field = props => {
         id={props.name}
         name={props.name}
         type={props.type}
-        multiline={props.multiline}
         onChange={props.onChange}
       />
     </StyledField>
@@ -29,7 +28,6 @@ Field.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string,
   value: PropTypes.string,
-  multiline: PropTypes.bool,
   onChange: PropTypes.func,
 }
 
