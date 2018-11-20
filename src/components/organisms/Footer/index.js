@@ -7,9 +7,10 @@ import { Link, Icon } from 'atoms'
 import { LinkList } from 'molecules'
 
 const FooterStyled = styled.footer`
-  background-color: ${props => props.theme.colors.primary};
+  background-color: ${props => props.theme.colors.secondary};
   width: 100%;
   padding: 50px 0;
+  margin-top: 200px;
 `
 const Logo = styled.a`
   width: 90px;
