@@ -5,14 +5,20 @@ export const GlobalStyle = createGlobalStyle`
   body, html {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
   }
 
   ${normalize()};
 `
 
 const colors = {
-  primary: '#eb5b49',
-  secondary: '#283583',
+  primary: '#283583',
+  secondary: '#eb5b49',
 }
 
 const typography = {
