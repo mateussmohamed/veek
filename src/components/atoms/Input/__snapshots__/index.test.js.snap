@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Input />] matches to snapshot 1`] = `
+<TextField
+  defaultValue=""
+  multiline={false}
+  type="text"
+/>
+`;
+
+exports[`[<Input />] when pass props matches to snapshot 1`] = `
+<TextField
+  defaultValue=""
+  multiline={false}
+  name="email"
+  type="text"
+  value="test@mail.com"
+/>
+`;
