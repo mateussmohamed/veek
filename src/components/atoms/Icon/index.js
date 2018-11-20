@@ -6,12 +6,14 @@ import Facebook from './Facebook'
 import Twitter from './Twitter'
 import Instagram from './Instagram'
 import Linkedin from './Linkedin'
+import Clock from './Clock'
 
 const ICONS = {
   facebook: <Facebook />,
   twitter: <Twitter />,
   instagram: <Instagram />,
   linkedin: <Linkedin />,
+  clock: <Clock />,
 }
 
 const IconStyled = styled.i`

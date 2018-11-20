@@ -2,10 +2,10 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import 'jest-styled-components'
 
-import FormApplication from './index'
+import Card from './index'
 
-describe('[<FormApplication />]', () => {
-  const wrap = (props = {}) => shallow(<FormApplication {...props} />)
+describe('[<Card />]', () => {
+  const wrap = (props = {}) => shallow(<Card {...props} />)
 
   test('matches to snapshot', () => {
     const wrapper = wrap()
