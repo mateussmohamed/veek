@@ -8,8 +8,6 @@ const HeaderStyled = styled.header`
   width: 100%;
   padding: 25px 0;
 
-  @media only screen and (min-width: 0em) {
-  }
   @media only screen and (min-width: 48em) {
     position: absolute;
     top: 0;
