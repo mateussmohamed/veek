@@ -8,7 +8,7 @@ import Label from './Label'
 import Logo from './Logo'
 import Button from './Button'
 import Typography from './Typography'
-import HeroContainer from './HeroContainer'
+import FullContainer from './FullContainer'
 import HeroContent from './HeroContent'
 import ScrollDown from './ScrollDown'
 
@@ -23,7 +23,7 @@ export {
   Button,
   Typography,
   Logo,
-  HeroContainer,
+  FullContainer,
   HeroContent,
   ScrollDown,
 }

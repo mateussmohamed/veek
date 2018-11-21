@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const HeroContainer = styled.section`
+const FullContainer = styled.section`
   width: 100%;
   height: 100vh;
   display: flex;
@@ -14,4 +14,4 @@ const HeroContainer = styled.section`
   }
 `
 
-export default HeroContainer
+export default FullContainer

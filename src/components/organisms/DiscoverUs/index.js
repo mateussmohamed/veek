@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 
-import { Button, Typography, HeroContainer } from 'atoms'
+import { Button, Typography, FullContainer } from 'atoms'
 
 const DiscoverUsImage = styled.img`
   object-fit: contain;
@@ -10,7 +10,7 @@ const DiscoverUsImage = styled.img`
   display: block;
 `
 
-const FullHeightContainer = styled(HeroContainer)`
+const FullHeightContainer = styled(FullContainer)`
   @media only screen and (min-width: 0em) {
     padding: 0;
   }
