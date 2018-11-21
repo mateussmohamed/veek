@@ -3,25 +3,42 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const StyledLinkList = styled.ul`
-  display: flex;
-  flex-direction: ${props => props.direction};
   list-style: none;
   padding: 0;
   margin: 0;
   width: 100%;
-  justify-content: space-evenly;
 
   @media only screen and (min-width: 0em) {
-    margin: 16px 0;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+  }
+
+  @media only screen and (min-width: 48em) {
+    flex-direction: column;
+  }
+
+  @media only screen and (min-width: 64em) {
+    flex-direction: ${props => props.direction || 'column'};
   }
 
   li {
     ${props =>
       props.direction === 'row' ? 'margin-right: 16px' : 'margin-right: 0'};
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     :last-child {
       margin-bottom: 0;
       margin-right: 0;
+    }
+
+    @media only screen and (min-width: 0em) {
+      flex-basis: 33.333333333333%;
+      text-align: center;
+    }
+
+    @media only screen and (min-width: 64em) {
+      flex-basis: auto;
+      text-align: left;
     }
   }
 `
