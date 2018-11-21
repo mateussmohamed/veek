@@ -17,18 +17,14 @@ const scrollDown = keyframes`
 const ScrollDownContainer = styled.div`
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 0;
 `
 
 const ScrollDownStyled = styled.a`
   padding-bottom: 60px;
-  position: absolute;
-  bottom: -40px;
-  left: 50%;
-  z-index: 2;
-  display: inline-block;
-  transform: translate(0, -50%);
   color: #000;
   font-size: 18px;
   font-weight: 400px;
