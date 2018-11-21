@@ -13,7 +13,7 @@ const baseStyle = css`
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  box-shadow: 0 4px 20px -2px rgba(40, 53, 131, 0.34);
+  box-shadow: 0 4px 15px -2px rgba(40, 53, 131, 0.6);
 `
 
 const primaryStyle = css`

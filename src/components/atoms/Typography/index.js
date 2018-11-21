@@ -15,37 +15,40 @@ const title = css`
   color: #283583;
   font-size: 82px;
   font-weight: 700;
-  text-align: center;
+  text-align: ${props => props.align || 'center'};
 `
 const title2 = css`
   color: #020202;
   font-size: 48px;
   font-weight: 400;
-  text-align: center;
+  text-align: ${props => props.align || 'center'};
 `
 
 const subtitle = css`
   color: #818182;
   font-size: 24px;
   font-weight: 400;
-  text-align: center;
+  text-align: ${props => props.align || 'center'};
 `
 const subtitle2 = css`
   color: #818182;
   font-size: 20px;
   font-weight: 400;
-  text-align: center;
+  text-align: ${props => props.align || 'center'};
 `
 const body = css`
   color: #818182;
   font-size: 20px;
   font-weight: 400;
+  line-height: 35px;
+  text-align: ${props => props.align || 'left'};
 `
 
 const legend = css`
   color: #a2a2a2;
   font-size: 14px;
   font-weight: 400;
+  text-align: ${props => props.align || 'left'};
 `
 
 const StyledTypography = styled.span`
@@ -71,6 +74,7 @@ Typography.defaultProps = {
 
 Typography.propTypes = {
   variant: PropTypes.string.isRequired,
+  align: PropTypes.string,
 }
 
 export default Typography
