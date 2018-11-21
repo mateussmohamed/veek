@@ -5,6 +5,7 @@ import File from './File'
 import TextField from './TextField'
 import TextArea from './TextArea'
 import Label from './Label'
+import Logo from './Logo'
 import Button from './Button'
 import Typography from './Typography'
 
@@ -18,4 +19,5 @@ export {
   Label,
   Button,
   Typography,
+  Logo,
 }
