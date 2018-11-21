@@ -8,15 +8,8 @@ const DiscoverUsImage = styled.img`
   object-fit: contain;
   margin: 75px auto 0 auto;
   display: block;
-`
-
-const FullHeightContainer = styled(FullContainer)`
-  @media only screen and (min-width: 0em) {
-    padding: 0;
-  }
-  @media only screen and (min-width: 48em) {
-    padding: 0;
-  }
+  width: 100%;
+  max-width: 468px;
 `
 
 const DiscoverUsContainer = styled(Grid)`
@@ -28,7 +21,7 @@ const DiscoverUsContainer = styled(Grid)`
 `
 
 const DiscoverUs = () => (
-  <FullHeightContainer>
+  <FullContainer>
     <DiscoverUsContainer>
       <Row>
         <Col xs={12}>
@@ -57,7 +50,7 @@ const DiscoverUs = () => (
         </Col>
       </Row>
     </DiscoverUsContainer>
-  </FullHeightContainer>
+  </FullContainer>
 )
 
 export default DiscoverUs
