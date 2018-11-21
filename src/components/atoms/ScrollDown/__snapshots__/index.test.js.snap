@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<ScrollDown />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "ScrollDown-p8bv7l-0",
+        "isStatic": true,
+        "rules": Array [
+          "position:relative;z-index:2;display:flex;flex-direction:column;width:100%;height:100%;",
+        ],
+      },
+      "displayName": "ScrollDown",
+      "render": [Function],
+      "styledComponentId": "ScrollDown-p8bv7l-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  I am a content!
+</StyledComponent>
+`;
