@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<HeroContent />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "HeroContent-sc-1b45svn-0",
+        "isStatic": false,
+        "rules": Array [
+          "
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: ",
+          [Function],
+          ";
+  padding-left: ",
+          [Function],
+          ";
+
+  ",
+          [Function],
+          "
+",
+          "display:flex;flex-direction:column;max-width:600px;",
+        ],
+      },
+      "displayName": "HeroContent",
+      "propTypes": Object {
+        "children": [Function],
+        "fluid": [Function],
+      },
+      "render": [Function],
+      "styledComponentId": "HeroContent-sc-1b45svn-0",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  I am a content!
+</StyledComponent>
+`;
