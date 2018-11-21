@@ -8,6 +8,9 @@ import Label from './Label'
 import Logo from './Logo'
 import Button from './Button'
 import Typography from './Typography'
+import HeroContainer from './HeroContainer'
+import HeroContent from './HeroContent'
+import ScrollDown from './ScrollDown'
 
 export {
   Link,
@@ -20,4 +23,7 @@ export {
   Button,
   Typography,
   Logo,
+  HeroContainer,
+  HeroContent,
+  ScrollDown,
 }
