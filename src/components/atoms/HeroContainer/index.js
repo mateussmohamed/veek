@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const HeroContainer = styled.section`
   width: 100%;
   height: 100vh;
+  display: flex;
   flex-direction: column;
 
   @media only screen and (min-width: 0em) {
