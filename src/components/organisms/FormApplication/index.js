@@ -63,7 +63,7 @@ const FormApplication = () => (
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col xs={12}>
           <Typography variant="legend">
             Thought experiments (Gedankenexperimenten) are “facts” in the sense
             that they have a “real life” correlate in the form of

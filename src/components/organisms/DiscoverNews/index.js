@@ -7,7 +7,7 @@ import { Button } from 'atoms'
 import { Card } from 'molecules'
 
 const Container = styled(Grid)`
-  margin: 250px 0;
+  margin: 250px auto;
 `
 
 const DiscoverNews = () => (

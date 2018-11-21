@@ -1,8 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`[<Home />] matches to snapshot 1`] = `
-<Page__Wrapper>
+<Page__Main>
+  <Header />
+  <DiscoverNews />
   <FormApplication />
   <Footer />
-</Page__Wrapper>
+</Page__Main>
 `;

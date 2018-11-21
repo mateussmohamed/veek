@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 
-import { Link, Icon } from 'atoms'
+import { Icon, Link, Logo } from 'atoms'
 import { LinkList } from 'molecules'
 
 const FooterStyled = styled.footer`
@@ -12,18 +12,10 @@ const FooterStyled = styled.footer`
   padding: 50px 0;
   margin-top: 200px;
 `
-const Logo = styled.a`
-  width: 90px;
-  height: 35px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url('/assets/veek_logo.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-
+const FooterLogo = styled(Link)`
   @media only screen and (min-width: 0em) {
+    text-align: center;
+    display: block;
     margin-bottom: 25px;
   }
   @media only screen and (min-width: 48em) {
@@ -36,7 +28,9 @@ const Footer = () => (
     <Grid style={{ padding: '0 1rem' }}>
       <Row between="xs" middle="sm">
         <Col xs={12} sm={12} md={2}>
-          <Logo />
+          <FooterLogo>
+            <Logo color="#fff" />
+          </FooterLogo>
         </Col>
         <Col xs={6} sm={4} md={2}>
           <LinkList>

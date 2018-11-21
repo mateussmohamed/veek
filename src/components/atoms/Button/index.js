@@ -3,15 +3,17 @@ import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
 
 const baseStyle = css`
-  box-shadow: 0 4px 20px -2px rgba(40, 53, 131, 0.34);
-  border-radius: 65px;
   min-width: 240px;
+  border-radius: 65px;
+  padding: 6px 10px;
+  border: 0;
+  outline: 0;
   color: #ffffff;
   font-family: Lato, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  padding: 6px 10px;
   text-transform: uppercase;
+  box-shadow: 0 4px 20px -2px rgba(40, 53, 131, 0.34);
 `
 
 const primaryStyle = css`
@@ -24,8 +26,8 @@ const secondaryStyle = css`
 
 const StyledButton = styled.button`
   ${baseStyle}
-  ${props => (props.primary ? primaryStyle : '')}
-  ${props => (props.secondary ? secondaryStyle : '')}
+  ${props => props.primary && !props.seconsecondarydary && primaryStyle}
+  ${props => props.secondary && secondaryStyle}
 `
 
 const Button = props => <StyledButton {...props} />

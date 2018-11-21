@@ -18,7 +18,13 @@ exports[`[<Footer />] matches to snapshot 1`] = `
         sm={12}
         xs={12}
       >
-        <Footer__Logo />
+        <Footer__FooterLogo>
+          <Logo
+            color="#fff"
+            height="35px"
+            width="90px"
+          />
+        </Footer__FooterLogo>
       </Col>
       <Col
         md={2}

@@ -2,17 +2,18 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { Footer } from 'organisms'
+import { Header, Footer } from 'organisms'
 
-const Wrapper = styled.div`
+const Main = styled.div`
   display: block;
 `
 
 const Page = props => (
-  <Wrapper>
+  <Main>
+    <Header />
     {props.children}
     <Footer />
-  </Wrapper>
+  </Main>
 )
 
 Page.propTypes = {
