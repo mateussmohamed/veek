@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[<Footer />] matches to snapshot 1`] = `
+exports[`[<FormApplication />] matches to snapshot 1`] = `
 <Grid>
   <FormApplication__FormApplicationStyled>
     <Row
@@ -90,14 +90,16 @@ exports[`[<Footer />] matches to snapshot 1`] = `
       >
         <Field
           label="Comments"
-          multiline={true}
           name="comments"
           onChange={[Function]}
+          type="textarea"
         />
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col
+        xs={12}
+      >
         <Typography
           variant="legend"
         >

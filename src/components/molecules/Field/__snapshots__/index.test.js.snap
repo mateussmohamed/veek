@@ -30,7 +30,7 @@ exports[`[<Field />] when pass multiline prop matches to snapshot with textarea 
   <Input
     defaultValue=""
     id="comments"
-    multiline={true}
+    multiline={false}
     name="comments"
     type="text"
   />
