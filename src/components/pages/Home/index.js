@@ -1,10 +1,11 @@
 import React from 'react'
 
 import { Page } from 'templates'
-import { FormApplication, DiscoverNews } from 'organisms'
+import { Hero, FormApplication, DiscoverNews } from 'organisms'
 
 const Home = () => (
   <Page>
+    <Hero />
     <DiscoverNews />
     <FormApplication />
   </Page>

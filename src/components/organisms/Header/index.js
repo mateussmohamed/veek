@@ -5,7 +5,16 @@ import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 import { Button, Link, Logo } from 'atoms'
 
 const HeaderStyled = styled.header`
+  width: 100%;
   padding: 25px 0;
+
+  @media only screen and (min-width: 0em) {
+  }
+  @media only screen and (min-width: 48em) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 `
 const HeaderLogo = styled(Link)`
   @media only screen and (min-width: 0em) {

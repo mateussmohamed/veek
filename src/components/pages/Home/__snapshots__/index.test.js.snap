@@ -3,6 +3,7 @@
 exports[`[<Home />] matches to snapshot 1`] = `
 <Page__Main>
   <Header />
+  <Hero />
   <DiscoverNews />
   <FormApplication />
   <Footer />
