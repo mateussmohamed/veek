@@ -1,14 +1,14 @@
 import React from 'react'
 
 import { Page } from 'templates'
-import { Hero, FormApplication, DiscoverUs, DiscoverNews } from 'organisms'
+import { Hero, Apply, DiscoverUs, DiscoverNews } from 'organisms'
 
 const Home = () => (
   <Page>
     <Hero />
     <DiscoverUs />
     <DiscoverNews />
-    <FormApplication />
+    <Apply />
   </Page>
 )
 
