@@ -3,8 +3,8 @@
 exports[`[<File />] matches to snapshot 1`] = `
 <File__FileContainer>
   <File__InputFile
-    id="cv"
-    name="cv"
+    id="document"
+    name="document"
     onChange={[Function]}
     type="file"
   />

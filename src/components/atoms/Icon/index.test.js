@@ -8,7 +8,7 @@ describe('[<Atom />]', () => {
   const wrap = (props = {}) => shallow(<Atom {...props} />)
 
   test('matches to snapshot', () => {
-    const wrapper = wrap({ children: 'I am a Atom' })
+    const wrapper = wrap({ name: 'facebook' })
 
     expect(wrapper).toMatchSnapshot()
   })

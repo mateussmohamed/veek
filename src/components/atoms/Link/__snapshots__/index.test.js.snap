@@ -11,5 +11,7 @@ exports[`[<Link />] matches to snapshot 1`] = `
 exports[`[<Link />] when pass props when pass color prop 1`] = `
 <Link__StyledLink
   color="#283583"
-/>
+>
+  I am a Link with color
+</Link__StyledLink>
 `;

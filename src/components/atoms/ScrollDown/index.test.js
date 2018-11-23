@@ -8,7 +8,7 @@ describe('[<ScrollDown />]', () => {
   const wrap = (props = {}) => shallow(<ScrollDown {...props} />)
 
   test('matches to snapshot', () => {
-    const wrapper = wrap({})
+    const wrapper = wrap({ to: {} })
 
     expect(wrapper).toMatchSnapshot()
   })
