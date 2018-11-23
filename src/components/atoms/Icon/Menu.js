@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const MenuIcon = props => (
   <svg
@@ -12,5 +13,13 @@ const MenuIcon = props => (
     />
   </svg>
 )
+
+MenuIcon.defaultProps = {
+  color: '#00',
+}
+
+MenuIcon.propTypes = {
+  color: PropTypes.string,
+}
 
 export default MenuIcon

@@ -11,7 +11,6 @@ exports[`[<Field />] matches to snapshot 1`] = `
   <Input
     defaultValue=""
     id="name"
-    multiline={false}
     name="name"
     type="text"
   />
@@ -30,7 +29,6 @@ exports[`[<Field />] when pass multiline prop matches to snapshot with textarea 
   <Input
     defaultValue=""
     id="comments"
-    multiline={false}
     name="comments"
     type="text"
   />
@@ -49,7 +47,6 @@ exports[`[<Field />] when pass type prop matches to snapshot 1`] = `
   <Input
     defaultValue=""
     id="avatar"
-    multiline={false}
     name="avatar"
     type="file"
   />

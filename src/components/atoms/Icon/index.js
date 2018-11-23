@@ -22,4 +22,5 @@ const Icon = props => getIcon(props)[props.name]
 Icon.propTypes = {
   name: PropTypes.string.isRequired,
 }
+
 export default Icon

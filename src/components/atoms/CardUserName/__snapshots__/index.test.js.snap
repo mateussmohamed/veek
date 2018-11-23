@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<CardUserName />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "CardUserName-woytkt-0",
+        "isStatic": true,
+        "rules": Array [
+          "color:#848484;font-family:Lato,sans-serif;font-size:12px;font-weight:400;text-transform:uppercase;",
+        ],
+      },
+      "displayName": "CardUserName",
+      "render": [Function],
+      "styledComponentId": "CardUserName-woytkt-0",
+      "target": "span",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<CardFooter />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "CardFooter-sc-1c65rd-0",
+        "isStatic": true,
+        "rules": Array [
+          "padding:20px;display:flex;align-items:center;justify-content:space-between;flex-direction:row;",
+        ],
+      },
+      "displayName": "CardFooter",
+      "render": [Function],
+      "styledComponentId": "CardFooter-sc-1c65rd-0",
+      "target": "footer",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  I am a container!
+</StyledComponent>
+`;

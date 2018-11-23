@@ -3,7 +3,6 @@
 exports[`[<Input />] matches to snapshot 1`] = `
 <TextField
   defaultValue=""
-  multiline={false}
   type="text"
 />
 `;
@@ -11,7 +10,6 @@ exports[`[<Input />] matches to snapshot 1`] = `
 exports[`[<Input />] when pass props matches to snapshot 1`] = `
 <TextField
   defaultValue=""
-  multiline={false}
   name="email"
   type="text"
   value="test@mail.com"

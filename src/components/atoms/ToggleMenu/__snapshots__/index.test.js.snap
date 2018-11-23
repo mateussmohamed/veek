@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<ToggleMenu />] matches to snapshot 1`] = `
+<ToggleMenu__StyledToggleMenu>
+  <Icon
+    color="#eb5b49"
+    name="menu"
+  />
+</ToggleMenu__StyledToggleMenu>
+`;

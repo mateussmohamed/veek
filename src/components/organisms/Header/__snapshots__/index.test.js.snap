@@ -2,50 +2,40 @@
 
 exports[`[<Header />] matches to snapshot 1`] = `
 <Header__HeaderStyled>
-  <Grid>
-    <Row>
-      <Col
-        style={
-          Object {
-            "position": "relative",
-          }
-        }
-        xs={12}
-      >
-        <Header__Navbar>
-          <Header__HeaderLogo>
-            <Logo
-              color="#eb5b49"
-              height="35px"
-              width="90px"
-            />
-          </Header__HeaderLogo>
-          <Header__NavLink>
-            Team
-          </Header__NavLink>
-          <Header__NavLink>
-            About us
-          </Header__NavLink>
-          <Header__NavLink>
-            Process
-          </Header__NavLink>
-          <Header__NavLink>
-            Explication
-          </Header__NavLink>
-          <Header__NavLink>
-            New
-          </Header__NavLink>
-          <Header__NavLink>
-            Contact
-          </Header__NavLink>
-        </Header__Navbar>
-        <Header__ApplyButton
-          secondary={true}
-        >
-          Apply
-        </Header__ApplyButton>
-      </Col>
-    </Row>
-  </Grid>
+  <Navbar>
+    <Header__HeaderLogo
+      className="logo"
+    >
+      <Logo
+        className="logo"
+        color="#eb5b49"
+        height="35px"
+        width="90px"
+      />
+    </Header__HeaderLogo>
+    <NavLInk__StyledNavLink>
+      Team
+    </NavLInk__StyledNavLink>
+    <NavLInk__StyledNavLink>
+      About us
+    </NavLInk__StyledNavLink>
+    <NavLInk__StyledNavLink>
+      Process
+    </NavLInk__StyledNavLink>
+    <NavLInk__StyledNavLink>
+      Explication
+    </NavLInk__StyledNavLink>
+    <NavLInk__StyledNavLink>
+      New
+    </NavLInk__StyledNavLink>
+    <NavLInk__StyledNavLink>
+      Contact
+    </NavLInk__StyledNavLink>
+    <Header__ApplyButton
+      secondary={true}
+    >
+      Apply
+    </Header__ApplyButton>
+  </Navbar>
 </Header__HeaderStyled>
 `;

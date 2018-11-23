@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<NavLink />] matches to snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "NavLInk__StyledNavLink-sc-1cf3eum-0",
+        "isStatic": true,
+        "rules": Array [
+          "color:#000;:nth-of-type(n + 5){order:2;}@media only screen and (min-width:0em){font-size:16px;}@media only screen and (min-width:48em){margin:0;padding:0;text-align:normal;}",
+        ],
+      },
+      "displayName": "NavLInk__StyledNavLink",
+      "render": [Function],
+      "styledComponentId": "NavLInk__StyledNavLink-sc-1cf3eum-0",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  I am a NavLink
+</StyledComponent>
+`;

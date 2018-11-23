@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`[<DiscoverNews />] matches to snapshot 1`] = `
-<DiscoverNews__Container>
+<DiscoverNews__DiscoverNewsContainer>
   <Row>
     <Col
       md={4}
@@ -57,5 +57,5 @@ exports[`[<DiscoverNews />] matches to snapshot 1`] = `
       </Button>
     </Col>
   </Row>
-</DiscoverNews__Container>
+</DiscoverNews__DiscoverNewsContainer>
 `;
