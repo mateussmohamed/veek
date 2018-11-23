@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import { Link } from 'atoms'
 
-const StyledNavLink = styled(Link)`
+const NavLink = styled(Link)`
   color: #000;
   :nth-of-type(n + 5) {
     order: 2;
@@ -19,4 +19,4 @@ const StyledNavLink = styled(Link)`
   }
 `
 
-export default StyledNavLink
+export default NavLink
