@@ -20,15 +20,7 @@ const StyledTextArea = styled.textarea`
   }
 `
 
-const TextArea = props => {
-  const textarea = React.createRef()
-
-  return <StyledTextArea {...props} ref={textarea} />
-}
-
-TextArea.defaultProps = {
-  defaultValue: '',
-}
+const TextArea = props => <StyledTextArea {...props} />
 
 TextArea.propTypes = {
   name: PropTypes.string,
