@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<NavItems />] matches to snapshot 1`] = `
+<NavItems__StyledNavItems
+  color="#fff"
+>
+  I am a NavItems
+</NavItems__StyledNavItems>
+`;
+
+exports[`[<NavItems />] when pass props when pass color prop 1`] = `
+<NavItems__StyledNavItems
+  color="#283583"
+/>
+`;
