@@ -1,57 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`[<Field />] matches to snapshot 1`] = `
-<Field__StyledField
-  label="First Name"
-  name="name"
->
-  <Label>
-    First Name
-  </Label>
-  <Input
-    defaultValue=""
-    id="name"
-    multiline={false}
-    name="name"
-    type="text"
+<Navbar__NavbarStyled>
+  <ToggleMenu
+    onClick={[Function]}
   />
-</Field__StyledField>
+  <NavItems
+    className=""
+  />
+</Navbar__NavbarStyled>
 `;
 
 exports[`[<Field />] when pass multiline prop matches to snapshot with textarea 1`] = `
-<Field__StyledField
-  label="Comments"
-  multiline={true}
-  name="comments"
->
-  <Label>
-    Comments
-  </Label>
-  <Input
-    defaultValue=""
-    id="comments"
-    multiline={false}
-    name="comments"
-    type="text"
+<Navbar__NavbarStyled>
+  <ToggleMenu
+    onClick={[Function]}
   />
-</Field__StyledField>
+  <NavItems
+    className=""
+  />
+</Navbar__NavbarStyled>
 `;
 
 exports[`[<Field />] when pass type prop matches to snapshot 1`] = `
-<Field__StyledField
-  label="Upload your Avatar"
-  name="avatar"
-  type="file"
->
-  <Label>
-    Upload your Avatar
-  </Label>
-  <Input
-    defaultValue=""
-    id="avatar"
-    multiline={false}
-    name="avatar"
-    type="file"
+<Navbar__NavbarStyled>
+  <ToggleMenu
+    onClick={[Function]}
   />
-</Field__StyledField>
+  <NavItems
+    className=""
+  />
+</Navbar__NavbarStyled>
 `;

@@ -7,23 +7,21 @@ exports[`[<CardImage />] matches to snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "CardImage-sc-14nakfg-0",
+        "componentId": "CardImage-sc-12t4rh8-0",
         "isStatic": true,
         "rules": Array [
-          "width:100%;height:100vh;flex-direction:column;@media only screen and (min-width:0em){padding:20px 0;}@media only screen and (min-width:48em){padding:200px 0;}",
+          "width:100%;height:170px;background-color:#25262c;background-image:url('/assets/thumbnail.jpg');background-size:cover;background-position:center center;",
         ],
       },
       "displayName": "CardImage",
       "render": [Function],
-      "styledComponentId": "CardImage-sc-14nakfg-0",
-      "target": "section",
+      "styledComponentId": "CardImage-sc-12t4rh8-0",
+      "target": "img",
       "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
   }
   forwardedRef={null}
->
-  I am a container!
-</StyledComponent>
+/>
 `;

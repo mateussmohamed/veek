@@ -7,15 +7,15 @@ exports[`[<CardContent />] matches to snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "CardContent-sc-14nakfg-0",
+        "componentId": "CardContent-mia19x-0",
         "isStatic": true,
         "rules": Array [
-          "width:100%;height:100vh;flex-direction:column;@media only screen and (min-width:0em){padding:20px 0;}@media only screen and (min-width:48em){padding:200px 0;}",
+          "width:100%;padding:20px 20px 0 20px;color:#000000;font-family:Lato,sans-serif;font-size:16px;font-weight:400;",
         ],
       },
       "displayName": "CardContent",
       "render": [Function],
-      "styledComponentId": "CardContent-sc-14nakfg-0",
+      "styledComponentId": "CardContent-mia19x-0",
       "target": "section",
       "toString": [Function],
       "warnTooManyClasses": [Function],

@@ -1,31 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`[<Card />] matches to snapshot 1`] = `
-<Card__CardContainer>
-  <Card__Image />
-  <Card__Content>
+<CardContainer>
+  <CardImage />
+  <CardContent>
     Lorem ipsum dolor
-  </Card__Content>
-  <Card__Footer>
-    <Card__User>
-      <Card__UserImage />
-      <Card__UserName>
+  </CardContent>
+  <CardFooter>
+    <CardUser>
+      <CardUserImage />
+      <CardUserName>
         BY JOHN SMITH
-      </Card__UserName>
-    </Card__User>
-    <Card__PostedIn>
+      </CardUserName>
+    </CardUser>
+    <CardInformation>
       <Icon
         name="clock"
       />
-      <Card__Timestamp>
+      <CardTimestamp>
         <p>
           25MIN
         </p>
         <p>
           AGO
         </p>
-      </Card__Timestamp>
-    </Card__PostedIn>
-  </Card__Footer>
-</Card__CardContainer>
+      </CardTimestamp>
+    </CardInformation>
+  </CardFooter>
+</CardContainer>
 `;

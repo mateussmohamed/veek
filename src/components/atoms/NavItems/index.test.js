@@ -8,7 +8,7 @@ describe('[<NavItems />]', () => {
   const wrap = (props = {}) => shallow(<NavItems {...props} />)
 
   test('matches to snapshot', () => {
-    const wrapper = wrap()
+    const wrapper = wrap({ children: [] })
 
     expect(wrapper).toMatchSnapshot()
   })
