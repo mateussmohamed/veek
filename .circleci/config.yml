@@ -8,7 +8,7 @@ to_persist: &to_persist
   paths:
     - repo/*
 
-version: 2
+version: 2.1
 jobs:
   checkout:
     <<: *defaults
