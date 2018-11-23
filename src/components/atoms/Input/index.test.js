@@ -12,12 +12,4 @@ describe('[<Input />]', () => {
 
     expect(wrapper).toMatchSnapshot()
   })
-
-  describe('when pass props', () => {
-    test('matches to snapshot', () => {
-      const wrapper = wrap({ name: 'email', value: 'test@mail.com' })
-
-      expect(wrapper).toMatchSnapshot()
-    })
-  })
 })
