@@ -20,6 +20,7 @@ import CardTimestamp from './CardTimestamp'
 import CardUser from './CardUser'
 import CardUserImage from './CardUserImage'
 import CardUserName from './CardUserName'
+import ToggleMenu from './ToggleMenu'
 
 export {
   Link,
@@ -44,4 +45,5 @@ export {
   CardUser,
   CardUserImage,
   CardUserName,
+  ToggleMenu,
 }

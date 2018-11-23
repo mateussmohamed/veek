@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<ToggleMenu />] matches to snapshot 1`] = `
+<ToggleMenu__StyledToggleMenu
+  color="#fff"
+>
+  I am a ToggleMenu
+</ToggleMenu__StyledToggleMenu>
+`;
+
+exports[`[<ToggleMenu />] when pass props when pass color prop 1`] = `
+<ToggleMenu__StyledToggleMenu
+  color="#283583"
+/>
+`;
