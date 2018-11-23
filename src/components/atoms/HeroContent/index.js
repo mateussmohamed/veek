@@ -8,7 +8,9 @@ const HeroContent = styled(Grid)`
   max-width: 600px;
 
   @media only screen and (min-width: 0em) {
-    padding: 20px 0;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   @media only screen and (min-width: 48em) {
     padding: 200px 0;
