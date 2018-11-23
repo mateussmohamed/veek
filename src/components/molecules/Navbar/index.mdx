@@ -1,0 +1,35 @@
+---
+name: Field
+menu: Molecules
+---
+
+import { Playground, PropsTable } from 'docz'
+
+import Field from './index'
+
+
+# Field
+<PropsTable of={Field} />
+
+<Playground>
+  <Field
+    label="First Name"
+    name="name"
+  />
+
+  <Field
+    label="Email"
+    name="email"
+  />
+
+  <Field
+    label="Telephone Number"
+    name="number"
+  />
+
+  <Field
+    label="Upload your Avatar"
+    name="avatar"
+    type="file"
+  />
+</Playground>
