@@ -1,28 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[<Field />] matches to snapshot 1`] = `
-<Navbar__NavbarStyled>
-  <ToggleMenu
-    onClick={[Function]}
-  />
-  <NavItems
-    className=""
-  />
-</Navbar__NavbarStyled>
-`;
-
-exports[`[<Field />] when pass multiline prop matches to snapshot with textarea 1`] = `
-<Navbar__NavbarStyled>
-  <ToggleMenu
-    onClick={[Function]}
-  />
-  <NavItems
-    className=""
-  />
-</Navbar__NavbarStyled>
-`;
-
-exports[`[<Field />] when pass type prop matches to snapshot 1`] = `
+exports[`[<Navbar />] matches to snapshot 1`] = `
 <Navbar__NavbarStyled>
   <ToggleMenu
     onClick={[Function]}
