@@ -5,7 +5,7 @@ const FullContainer = styled.section`
   display: flex;
 
   @media only screen and (min-width: 0em) {
-    height: 100%;
+    height: 100vh;
   }
   @media only screen and (min-width: 48em) {
     height: 100vh;
