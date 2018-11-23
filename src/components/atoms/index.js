@@ -22,6 +22,7 @@ import CardUserImage from './CardUserImage'
 import CardUserName from './CardUserName'
 import ToggleMenu from './ToggleMenu'
 import NavItems from './NavItems'
+import NavLink from './NavLink'
 
 export {
   Link,
@@ -48,4 +49,5 @@ export {
   CardUserName,
   ToggleMenu,
   NavItems,
+  NavLink,
 }

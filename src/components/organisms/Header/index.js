@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Button, Logo, Link } from 'atoms'
+import { Button, Logo, Link, NavLink } from 'atoms'
 import { Navbar } from 'molecules'
 
 const HeaderStyled = styled.header`
@@ -18,23 +18,6 @@ const HeaderLogo = styled(Link)`
   @media only screen and (min-width: 64em) {
     order: 1;
     margin: 0;
-  }
-`
-
-const NavLink = styled(Link)`
-  color: #000;
-  :nth-of-type(n + 5) {
-    order: 2;
-  }
-
-  @media only screen and (min-width: 0em) {
-    font-size: 16px;
-  }
-
-  @media only screen and (min-width: 48em) {
-    margin: 0;
-    padding: 0;
-    text-align: normal;
   }
 `
 
@@ -55,7 +38,7 @@ const Header = () => (
   <HeaderStyled>
     <Navbar>
       <HeaderLogo className="logo">
-        <Logo color="#eb5b49" />
+        <Logo color="#eb5b49" className="logo" />
       </HeaderLogo>
       <NavLink>Team</NavLink>
       <NavLink>About us</NavLink>

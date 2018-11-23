@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<NavLink />] matches to snapshot 1`] = `
+<NavLink__StyledNavLink
+  color="#fff"
+>
+  I am a NavLink
+</NavLink__StyledNavLink>
+`;
+
+exports[`[<NavLink />] when pass props when pass color prop 1`] = `
+<NavLink__StyledNavLink
+  color="#283583"
+/>
+`;
