@@ -10,7 +10,16 @@ const FooterStyled = styled.footer`
   background-color: ${props => props.theme.colors.secondary};
   width: 100%;
   padding: 25px 0;
-  margin-top: 200px;
+
+  @media only screen and (min-width: 0em) {
+    margin-top: 100px;
+  }
+  @media only screen and (min-width: 48em) {
+    margin-top: 140px;
+  }
+  @media only screen and (min-width: 64em) {
+    margin-top: 200px;
+  }
 `
 const FooterLogo = styled(Link)`
   @media only screen and (min-width: 0em) {
