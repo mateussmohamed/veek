@@ -3,15 +3,20 @@ import styled from 'styled-components'
 
 import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 
-import { Button } from 'atoms'
+import { Button, FullContainer } from 'atoms'
 import { Card } from 'molecules'
 
-const Container = styled(Grid)`
-  margin: 250px auto;
+const DiscoverNewsContainer = styled(Grid)`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 50px;
 `
 
 const DiscoverNews = () => (
-  <Container>
+  <DiscoverNewsContainer>
     <Row>
       <Col xs={12} sm={6} md={4}>
         <Card />
@@ -37,7 +42,7 @@ const DiscoverNews = () => (
         <Button>Discover News</Button>
       </Col>
     </Row>
-  </Container>
+  </DiscoverNewsContainer>
 )
 
 export default DiscoverNews

@@ -1,17 +1,15 @@
 import styled from 'styled-components'
 
-const HeroContainer = styled.section`
+const FullContainer = styled.section`
   width: 100%;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
 
   @media only screen and (min-width: 0em) {
-    padding: 20px 0;
+    height: 100vh;
   }
   @media only screen and (min-width: 48em) {
-    padding: 200px 0;
+    height: 100vh;
   }
 `
 
-export default HeroContainer
+export default FullContainer

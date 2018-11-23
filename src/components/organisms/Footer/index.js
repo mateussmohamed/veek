@@ -9,8 +9,17 @@ import { LinkList } from 'molecules'
 const FooterStyled = styled.footer`
   background-color: ${props => props.theme.colors.secondary};
   width: 100%;
-  padding: 50px 0;
-  margin-top: 200px;
+  padding: 25px 0;
+
+  @media only screen and (min-width: 0em) {
+    margin-top: 100px;
+  }
+  @media only screen and (min-width: 48em) {
+    margin-top: 140px;
+  }
+  @media only screen and (min-width: 64em) {
+    margin-top: 200px;
+  }
 `
 const FooterLogo = styled(Link)`
   @media only screen and (min-width: 0em) {
@@ -23,6 +32,14 @@ const FooterLogo = styled(Link)`
   }
 `
 
+const SocialLinks = styled(LinkList)`
+  flex-direction: row !important;
+  li {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+`
+
 const Footer = () => (
   <FooterStyled>
     <Grid style={{ padding: '0 1rem' }}>
@@ -32,21 +49,21 @@ const Footer = () => (
             <Logo color="#fff" />
           </FooterLogo>
         </Col>
-        <Col xs={6} sm={4} md={2}>
+        <Col xs={12} sm={4} md={2}>
           <LinkList>
             <Link>Team</Link>
             <Link>About us</Link>
             <Link>Process</Link>
           </LinkList>
         </Col>
-        <Col xs={6} sm={3} md={2}>
+        <Col xs={12} sm={4} md={2}>
           <LinkList>
             <Link>Explication</Link>
             <Link>News</Link>
             <Link>Contact</Link>
           </LinkList>
         </Col>
-        <Col xs={12} sm={5} md={4}>
+        <Col xs={12} sm={4} md={4}>
           <LinkList direction="row">
             <Link>Privacy Police</Link>
             <Link>Legal Notice</Link>
@@ -54,7 +71,7 @@ const Footer = () => (
           </LinkList>
         </Col>
         <Col xs={12} sm={12} md={2}>
-          <LinkList direction="row">
+          <SocialLinks direction="row">
             <Link>
               <Icon name="facebook" />
             </Link>
@@ -67,7 +84,7 @@ const Footer = () => (
             <Link>
               <Icon name="linkedin" />
             </Link>
-          </LinkList>
+          </SocialLinks>
         </Col>
       </Row>
     </Grid>

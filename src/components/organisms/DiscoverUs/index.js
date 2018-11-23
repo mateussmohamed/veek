@@ -2,20 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 
-import { Button, Typography, HeroContainer } from 'atoms'
+import { Button, Typography, FullContainer } from 'atoms'
 
 const DiscoverUsImage = styled.img`
   object-fit: contain;
-  margin: 75px auto 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
-`
+  width: 100%;
+  max-width: 468px;
 
-const FullHeightContainer = styled(HeroContainer)`
   @media only screen and (min-width: 0em) {
-    padding: 0;
+    margin-top: 35px;
   }
+
   @media only screen and (min-width: 48em) {
-    padding: 0;
+    margin-top: 45px;
+  }
+
+  @media only screen and (min-width: 64em) {
+    margin-top: 65px;
   }
 `
 
@@ -28,7 +34,7 @@ const DiscoverUsContainer = styled(Grid)`
 `
 
 const DiscoverUs = () => (
-  <FullHeightContainer>
+  <FullContainer>
     <DiscoverUsContainer>
       <Row>
         <Col xs={12}>
@@ -57,7 +63,7 @@ const DiscoverUs = () => (
         </Col>
       </Row>
     </DiscoverUsContainer>
-  </FullHeightContainer>
+  </FullContainer>
 )
 
 export default DiscoverUs

@@ -13,9 +13,20 @@ const mapVariants = {
 
 const title = css`
   color: #283583;
-  font-size: 82px;
   font-weight: 700;
   text-align: ${props => props.align || 'center'};
+
+  @media only screen and (min-width: 0em) {
+    font-size: 52px;
+  }
+
+  @media only screen and (min-width: 48em) {
+    font-size: 62px;
+  }
+
+  @media only screen and (min-width: 64em) {
+    font-size: 82px;
+  }
 `
 const title2 = css`
   color: #020202;
@@ -26,9 +37,20 @@ const title2 = css`
 
 const subtitle = css`
   color: #818182;
-  font-size: 24px;
   font-weight: 400;
   text-align: ${props => props.align || 'center'};
+
+  @media only screen and (min-width: 0em) {
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: 48em) {
+    font-size: 20px;
+  }
+
+  @media only screen and (min-width: 64em) {
+    font-size: 24px;
+  }
 `
 const subtitle2 = css`
   color: #818182;
@@ -38,10 +60,23 @@ const subtitle2 = css`
 `
 const body = css`
   color: #818182;
-  font-size: 20px;
   font-weight: 400;
-  line-height: 35px;
+
   text-align: ${props => props.align || 'left'};
+
+  @media only screen and (min-width: 0em) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media only screen and (min-width: 48em) {
+    font-size: 18px;
+  }
+
+  @media only screen and (min-width: 64em) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 `
 
 const legend = css`

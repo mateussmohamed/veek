@@ -11,6 +11,7 @@ const CardContainer = styled.article`
   width: 100%;
   border: 1px solid #dfdfdf;
   margin-bottom: 45px;
+  background-color: #fff;
 `
 
 const Image = styled.img`

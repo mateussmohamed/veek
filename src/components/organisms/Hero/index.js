@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { HeroContainer, HeroContent, Typography, ScrollDown } from 'atoms'
+import { FullContainer, HeroContent, Typography, ScrollDown } from 'atoms'
 
 const Hero = () => {
   const heroContainer = React.createRef()
 
   return (
-    <HeroContainer ref={heroContainer}>
+    <FullContainer ref={heroContainer}>
       <HeroContent>
         <Typography variant="title">Sua Operadora Digital</Typography>
         <Typography variant="subtitle">
@@ -15,7 +15,7 @@ const Hero = () => {
         </Typography>
       </HeroContent>
       <ScrollDown to={heroContainer} />
-    </HeroContainer>
+    </FullContainer>
   )
 }
 
