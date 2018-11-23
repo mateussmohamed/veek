@@ -15,7 +15,10 @@ describe('[<Link />]', () => {
 
   describe('when pass props', () => {
     test('when pass color prop', () => {
-      const wrapper = wrap({ color: '#283583' })
+      const wrapper = wrap({
+        children: 'I am a Link with color',
+        color: '#283583',
+      })
 
       expect(wrapper).toMatchSnapshot()
     })

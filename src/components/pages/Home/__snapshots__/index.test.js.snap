@@ -6,7 +6,7 @@ exports[`[<Home />] matches to snapshot 1`] = `
   <Hero />
   <DiscoverUs />
   <DiscoverNews />
-  <FormApplication />
+  <Apply />
   <Footer />
 </Page__Main>
 `;

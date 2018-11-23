@@ -15,7 +15,6 @@ const Input = props => getComponent(props)[props.type]
 
 Input.defaultProps = {
   type: 'text',
-  defaultValue: '',
 }
 
 Input.propTypes = {

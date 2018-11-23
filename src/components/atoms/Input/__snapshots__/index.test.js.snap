@@ -2,16 +2,6 @@
 
 exports[`[<Input />] matches to snapshot 1`] = `
 <TextField
-  defaultValue=""
   type="text"
-/>
-`;
-
-exports[`[<Input />] when pass props matches to snapshot 1`] = `
-<TextField
-  defaultValue=""
-  name="email"
-  type="text"
-  value="test@mail.com"
 />
 `;

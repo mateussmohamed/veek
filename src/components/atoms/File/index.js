@@ -42,7 +42,7 @@ const Message = styled.h4`
 `
 
 const FileName = styled.h5`
-  width: 150px;
+  max-width: 350px;
   margin: 0;
   border-bottom: 3px solid;
   color: #283583;
@@ -50,13 +50,13 @@ const FileName = styled.h5`
   font-size: 20px;
   font-weight: 700;
   line-height: 35px;
+  word-break: break-all;
 `
 
 class File extends Component {
   constructor(props) {
     super(props)
 
-    this.input = React.createRef()
     this.state = {
       fileName: 'Search a file',
     }
@@ -65,8 +65,8 @@ class File extends Component {
   handleFileChange = e => {
     const file = e.target.files[0]
 
-    this.props.onChange(file)
-    this.setState({ fileName: file ? file.name : 'Search a file' })
+    this.props.onChange(e)
+    this.setState({ fileName: file && file.name })
   }
 
   render() {
@@ -78,10 +78,11 @@ class File extends Component {
           name={this.props.name}
           value={this.props.value}
           onChange={this.handleFileChange}
-          ref={this.input}
         />
         <Message>Drag and drop a file or</Message>
-        <FileName>{this.state.fileName}</FileName>
+        <FileName>
+          {this.props.value ? this.state.fileName : 'Search a file'}
+        </FileName>
       </FileContainer>
     )
   }
@@ -93,8 +94,8 @@ File.defaultProps = {
 
 File.propTypes = {
   name: PropTypes.string.isRequired,
+  value: PropTypes.any,
   onChange: PropTypes.func.isRequired,
-  value: PropTypes.string,
 }
 
 export default File

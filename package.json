@@ -12,7 +12,7 @@
     "lint:watch": "esw --watch --ext .js src",
     "lint:all": "npm run lint && npm run lint:css",
     "test": "jest --updateSnapshot",
-    "test:coverage": "jest --updateSnapshot --coverage",
+    "test:coverage": "jest --updateSnapshot --coverage --clearCache",
     "test:watch": "jest --updateSnapshot --watch",
     "coveralls": "npm run test:coverage && cat ./coverage/lcov.info | ./node_modules/.bin/coveralls && rm -rf coverage",
     "build": "cross-env NODE_ENV=production BABEL_ENV=production webpack --progress --config config/webpack/prod.config -p"

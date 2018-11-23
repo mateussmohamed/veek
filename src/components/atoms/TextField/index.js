@@ -18,15 +18,10 @@ const StyledTextField = styled.input`
   }
 `
 
-const TextField = props => {
-  const textField = React.createRef()
-
-  return <StyledTextField {...props} ref={textField} />
-}
+const TextField = props => <StyledTextField {...props} />
 
 TextField.defaultProps = {
   type: 'text',
-  defaultValue: '',
 }
 
 TextField.propTypes = {

@@ -9,7 +9,6 @@ exports[`[<Field />] matches to snapshot 1`] = `
     First Name
   </Label>
   <Input
-    defaultValue=""
     id="name"
     name="name"
     type="text"
@@ -27,7 +26,6 @@ exports[`[<Field />] when pass multiline prop matches to snapshot with textarea 
     Comments
   </Label>
   <Input
-    defaultValue=""
     id="comments"
     name="comments"
     type="text"
@@ -45,7 +43,6 @@ exports[`[<Field />] when pass type prop matches to snapshot 1`] = `
     Upload your Avatar
   </Label>
   <Input
-    defaultValue=""
     id="avatar"
     name="avatar"
     type="file"

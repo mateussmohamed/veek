@@ -1,3 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[<Atom />] matches to snapshot 1`] = `""`;
+exports[`[<Atom />] matches to snapshot 1`] = `
+<FacebookIcon
+  name="facebook"
+/>
+`;

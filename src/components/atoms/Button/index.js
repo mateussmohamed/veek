@@ -13,7 +13,11 @@ const baseStyle = css`
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  box-shadow: 0 4px 15px -2px rgba(40, 53, 131, 0.6);
+  box-shadow: 0 4px 15px -2px rgba(40, 53, 131, 0.4);
+
+  :hover {
+    box-shadow: 0 4px 22px -2px rgba(40, 53, 131, 0.7);
+  }
 `
 
 const primaryStyle = css`
@@ -28,6 +32,16 @@ const StyledButton = styled.button`
   ${baseStyle}
   ${props => props.primary && !props.seconsecondarydary && primaryStyle}
   ${props => props.secondary && secondaryStyle}
+
+  cursor: pointer;
+
+  & :disabled {
+    cursor: default;
+    pointer-events: none;
+    color: #f1f1f1;
+    background-color: #999;
+  }
+
 `
 
 const Button = props => <StyledButton {...props} />

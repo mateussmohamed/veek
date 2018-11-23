@@ -2,7 +2,6 @@
 
 exports[`[<TextArea />] matches to snapshot 1`] = `
 <TextArea__StyledTextArea
-  defaultValue=""
   name="comments"
   value="bla bla bla"
 />

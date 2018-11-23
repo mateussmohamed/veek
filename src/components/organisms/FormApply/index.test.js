@@ -2,13 +2,13 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import 'jest-styled-components'
 
-import ScrollDown from './index'
+import Apply from './index'
 
-describe('[<ScrollDown />]', () => {
-  const wrap = (props = {}) => shallow(<ScrollDown {...props} />)
+describe('[<Apply />]', () => {
+  const wrap = (props = {}) => shallow(<Apply {...props} />)
 
   test('matches to snapshot', () => {
-    const wrapper = wrap({ to: {} })
+    const wrapper = wrap()
 
     expect(wrapper).toMatchSnapshot()
   })
