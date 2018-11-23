@@ -1,16 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`[<Apply />] matches to snapshot 1`] = `
-<form>
+<form
+  onSubmit={[Function]}
+>
   <Row>
     <Col
       sm={5}
       xs={12}
     >
       <Field
+        error=""
         label="First Name"
         name="firstName"
         onChange={[Function]}
+        value=""
       />
     </Col>
     <Col
@@ -19,9 +23,11 @@ exports[`[<Apply />] matches to snapshot 1`] = `
       xs={12}
     >
       <Field
+        error=""
         label="Name"
         name="name"
         onChange={[Function]}
+        value=""
       />
     </Col>
   </Row>
@@ -31,9 +37,11 @@ exports[`[<Apply />] matches to snapshot 1`] = `
       xs={12}
     >
       <Field
+        error=""
         label="Email"
         name="email"
         onChange={[Function]}
+        value=""
       />
     </Col>
     <Col
@@ -42,9 +50,11 @@ exports[`[<Apply />] matches to snapshot 1`] = `
       xs={12}
     >
       <Field
+        error=""
         label="Telephone Number"
         name="telephone"
         onChange={[Function]}
+        value=""
       />
     </Col>
   </Row>
@@ -53,10 +63,12 @@ exports[`[<Apply />] matches to snapshot 1`] = `
       xs={12}
     >
       <Field
+        error=""
         label="Upload your CV"
         name="cv"
         onChange={[Function]}
         type="file"
+        value=""
       />
     </Col>
   </Row>
@@ -65,10 +77,12 @@ exports[`[<Apply />] matches to snapshot 1`] = `
       xs={12}
     >
       <Field
+        error=""
         label="Comments"
         name="comments"
         onChange={[Function]}
         type="textarea"
+        value=""
       />
     </Col>
   </Row>
@@ -96,7 +110,7 @@ exports[`[<Apply />] matches to snapshot 1`] = `
         primary={true}
         secondary={true}
       >
-        Validate
+        Send
       </Button>
     </Col>
   </Row>

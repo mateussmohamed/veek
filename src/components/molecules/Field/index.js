@@ -9,6 +9,12 @@ const StyledField = styled.div`
   margin-bottom: 25px;
 `
 
+const ErrorMessage = styled.p`
+  color: red;
+  font-size: 12px;
+  margin: 8px 0 0 0;
+`
+
 const Field = props => {
   return (
     <StyledField {...props}>
@@ -16,9 +22,11 @@ const Field = props => {
       <Input
         id={props.name}
         name={props.name}
+        value={props.value}
         type={props.type}
         onChange={props.onChange}
       />
+      {props.error && <ErrorMessage>{props.error}</ErrorMessage>}
     </StyledField>
   )
 }
@@ -28,6 +36,7 @@ Field.propTypes = {
   name: PropTypes.string.isRequired,
   type: PropTypes.string,
   value: PropTypes.string,
+  error: PropTypes.string,
   onChange: PropTypes.func,
 }
 
