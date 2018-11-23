@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Button, Logo, Link, NavLink } from 'atoms'
+import { Button, Logo, Link, NavItem } from 'atoms'
 import { Navbar } from 'molecules'
 
 const HeaderStyled = styled.header`
@@ -40,12 +40,12 @@ const Header = () => (
       <HeaderLogo className="logo">
         <Logo color="#eb5b49" className="logo" />
       </HeaderLogo>
-      <NavLink>Team</NavLink>
-      <NavLink>About us</NavLink>
-      <NavLink>Process</NavLink>
-      <NavLink>Explication</NavLink>
-      <NavLink>New</NavLink>
-      <NavLink>Contact</NavLink>
+      <NavItem>Team</NavItem>
+      <NavItem>About us</NavItem>
+      <NavItem>Process</NavItem>
+      <NavItem>Explication</NavItem>
+      <NavItem>New</NavItem>
+      <NavItem>Contact</NavItem>
       <ApplyButton secondary>Apply</ApplyButton>
     </Navbar>
   </HeaderStyled>

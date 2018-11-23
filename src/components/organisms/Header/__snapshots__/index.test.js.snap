@@ -13,24 +13,24 @@ exports[`[<Header />] matches to snapshot 1`] = `
         width="90px"
       />
     </Header__HeaderLogo>
-    <NavLink__StyledNavLink>
+    <NavItem>
       Team
-    </NavLink__StyledNavLink>
-    <NavLink__StyledNavLink>
+    </NavItem>
+    <NavItem>
       About us
-    </NavLink__StyledNavLink>
-    <NavLink__StyledNavLink>
+    </NavItem>
+    <NavItem>
       Process
-    </NavLink__StyledNavLink>
-    <NavLink__StyledNavLink>
+    </NavItem>
+    <NavItem>
       Explication
-    </NavLink__StyledNavLink>
-    <NavLink__StyledNavLink>
+    </NavItem>
+    <NavItem>
       New
-    </NavLink__StyledNavLink>
-    <NavLink__StyledNavLink>
+    </NavItem>
+    <NavItem>
       Contact
-    </NavLink__StyledNavLink>
+    </NavItem>
     <Header__ApplyButton
       secondary={true}
     >
