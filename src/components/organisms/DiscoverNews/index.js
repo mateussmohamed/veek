@@ -16,35 +16,33 @@ const DiscoverNewsContainer = styled(Grid)`
 `
 
 const DiscoverNews = () => (
-  <FullContainer>
-    <DiscoverNewsContainer>
-      <Row>
-        <Col xs={12} sm={6} md={4}>
-          <Card />
-        </Col>
-        <Col xs={12} sm={6} md={4}>
-          <Card />
-        </Col>
-        <Col xs={12} sm={6} md={4}>
-          <Card />
-        </Col>
-        <Col xs={12} sm={6} md={4}>
-          <Card />
-        </Col>
-        <Col xs={12} sm={6} md={4}>
-          <Card />
-        </Col>
-        <Col xs={12} sm={6} md={4}>
-          <Card />
-        </Col>
-      </Row>
-      <Row center="xs">
-        <Col>
-          <Button>Discover News</Button>
-        </Col>
-      </Row>
-    </DiscoverNewsContainer>
-  </FullContainer>
+  <DiscoverNewsContainer>
+    <Row>
+      <Col xs={12} sm={6} md={4}>
+        <Card />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <Card />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <Card />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <Card />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <Card />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <Card />
+      </Col>
+    </Row>
+    <Row center="xs">
+      <Col>
+        <Button>Discover News</Button>
+      </Col>
+    </Row>
+  </DiscoverNewsContainer>
 )
 
 export default DiscoverNews
