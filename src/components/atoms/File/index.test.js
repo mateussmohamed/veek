@@ -8,16 +8,9 @@ describe('[<File />]', () => {
   const wrap = (props = {}) => shallow(<File {...props} />)
 
   test('matches to snapshot', () => {
-    const wrapper = wrap({ name: 'cv', onChange: jest.fn() })
+    const props = { name: 'cv', onChange: jest.fn() }
+    const wrapper = wrap(props)
 
     expect(wrapper).toMatchSnapshot()
-  })
-
-  describe('when pass props', () => {
-    test('matches to snapshot', () => {
-      const wrapper = wrap({ name: 'cv', onChange: jest.fn() })
-
-      expect(wrapper).toMatchSnapshot()
-    })
   })
 })
