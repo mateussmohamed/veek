@@ -5,7 +5,7 @@
 ## About
 Implementation of layout using react + atomic design
 
-## [Demo](https://challenge-veek.netlify.com)
+## [Demo](https://veek.netlify.com)
 
 * React
 * styled-components
