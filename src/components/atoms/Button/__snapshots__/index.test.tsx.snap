@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Button />] matches to snapshot 1`] = `[Function]`;
+
+exports[`[<Button />] when pass secondary prop matches to snapshot 1`] = `[Function]`;

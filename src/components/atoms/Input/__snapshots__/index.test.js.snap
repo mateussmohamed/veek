@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`[<Input />] matches to snapshot 1`] = `
-<TextField
-  type="text"
-/>
-`;

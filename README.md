@@ -3,24 +3,19 @@
 ## About
 Implementation of layout using react + atomic design
 
-## [Demo](https://veek.netlify.com)
+## [Demo](veek.vercel.app)
 
 * React
+* Next.js
 * styled-components
-* Jest with Enzyme (snapshots)
-* Docz
-* Webpack
-* circle.ci
-* Netlify
+* Jest with (snapshots)
 
 ## Install dependencies
 > $ yarn
 
 ## Run project
-> $ yarn start
+> $ yarn dev
 
 ## Run tests
-> $ yarn tests
+> $ yarn test
 
-## Run docz
-> $ yarn docz dev

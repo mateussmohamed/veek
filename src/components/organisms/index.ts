@@ -1,0 +1,7 @@
+export { Header } from './Header'
+export { Footer } from './Footer'
+export { Hero } from './Hero'
+export { Apply } from './Apply'
+export { FormApply } from './FormApply'
+export { DiscoverUs } from './DiscoverUs'
+export { DiscoverNews } from './DiscoverNews'
