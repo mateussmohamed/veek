@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`[<TextField />] matches to snapshot 1`] = `
-<TextField__StyledTextField
-  name="email"
-  onChange={[MockFunction]}
-  type="text"
-/>
-`;

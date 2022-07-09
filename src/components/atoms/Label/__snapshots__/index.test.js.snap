@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`[<Label />] matches to snapshot 1`] = `<Label__StyledLabel />`;
-
-exports[`[<Label />] when pass props matches to snapshot 1`] = `
-<Label__StyledLabel
-  value="test@mail.com"
-/>
-`;

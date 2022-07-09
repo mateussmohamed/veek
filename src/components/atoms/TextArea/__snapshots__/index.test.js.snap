@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`[<TextArea />] matches to snapshot 1`] = `
-<TextArea__StyledTextArea
-  name="comments"
-  value="bla bla bla"
-/>
-`;

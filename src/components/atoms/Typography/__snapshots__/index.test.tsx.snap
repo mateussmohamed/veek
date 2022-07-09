@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Typography />] matches to snapshot 1`] = `[Function]`;
+
+exports[`[<Typography />] when pass variant prop should equals the body 1`] = `[Function]`;
+
+exports[`[<Typography />] when pass variant prop should equals the legend 1`] = `[Function]`;
+
+exports[`[<Typography />] when pass variant prop should equals the subtitle 1`] = `[Function]`;
+
+exports[`[<Typography />] when pass variant prop should equals the subtitle2 1`] = `[Function]`;
+
+exports[`[<Typography />] when pass variant prop should equals the title 1`] = `[Function]`;
+
+exports[`[<Typography />] when pass variant prop should equals the title2 1`] = `[Function]`;

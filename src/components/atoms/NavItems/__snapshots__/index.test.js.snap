@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`[<NavItems />] matches to snapshot 1`] = `
-<Fragment>
-  <NavItems__StyledNavItems />
-  <NavItems__StyledReponsiveItems />
-</Fragment>
-`;

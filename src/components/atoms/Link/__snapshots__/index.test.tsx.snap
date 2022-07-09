@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[<Link />] matches to snapshot 1`] = `[Function]`;
+
+exports[`[<Link />] when pass props when pass color prop 1`] = `[Function]`;
