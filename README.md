@@ -61,7 +61,7 @@ Check out the [contributing](https://github.com/mateussmohamed/veek/blob/master/
 
 # :closed_book: License
 
-Released in 2020.
+Released in 2022.
 This project is under the [MIT license](https://github.com/mateussmohamed/veek/blob/master/LICENSE).
 
 Made with love by [Mateus Santana](https://github.com/mateussmohamed) 🖤🚀
